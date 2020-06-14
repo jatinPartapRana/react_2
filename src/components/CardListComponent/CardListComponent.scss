@@ -1,0 +1,15 @@
+.listingCard{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 120px;
+}
+
+@media (max-width: 600px) {
+    .listingCard{
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 25px;
+    }
+}

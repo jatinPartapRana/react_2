@@ -1,0 +1,26 @@
+
+.qty {
+    display: flex;  
+    margin-left: 60px;
+    .incrementValue{
+      cursor: pointer;
+    }
+    .qtyValue{
+      margin: 0 10px;
+    }
+  }
+
+  @media only screen and (max-width: 772px) {
+
+    .qty {
+        display: flex;  
+        margin-left: 0px;
+        .incrementValue{
+          cursor: pointer;
+        }
+        .qtyValue{
+          margin: 0 10px;
+        }
+      }
+
+  }
